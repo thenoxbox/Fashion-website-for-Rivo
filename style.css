@@ -1,0 +1,373 @@
+body{
+    background-color: #C2EFD4;
+    }
+    /* this is the styling for the navbar */
+    .links a{
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        text-decoration: none;
+        margin: 2px;
+        color: #224F34;
+    }
+    .navbar h1{
+        font-family: "Rufina", serif;
+        font-weight: 700;
+        color: #224F34;
+    }
+    .navbar a{
+        padding-left: 10px;
+        text-decoration: none;
+    }
+    .newb{
+        border: 2px solid #224F34;
+        padding: 10px;
+        color: #224F34;
+        border-radius: 3px;
+        width: 142px;
+        height: 52px;
+        text-align: center;
+    }
+    .boob{
+        display: none;
+    }
+    .theintro{
+        margin-top:20px;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .partone{
+        padding: 50px;
+    }
+    .soap{
+        margin-bottom: 41px;
+    }
+    .partone h1{
+        padding-top: 50px;
+        font-family: "Rufina", serif;
+        font-size: 70px;
+        color: #224F34;
+    }
+    .partone a{
+        text-decoration: none;
+        border: 2px solid #224F34;
+        padding: 10px;
+        font-family: poppins;
+        font-size: 20px;
+        width: 258px;
+        height: 74px;
+        color: #fff;
+        background-color: #224F34;
+        border-radius: 3px;
+    }
+    .partone p{
+        font-size: 24px;
+        color: #267D49;
+        font-family: poppins;
+    }
+    .lovelybk{
+        height: 680px;
+        width: 570px;
+        background-color: #6BC785;
+        border-radius: 141px 45px;
+        margin: 50px;
+    }
+    .lovelybk img{
+        height: 680px;
+        width: 570px; 
+    }
+    .lovelybk2{
+        display: none;
+    }
+
+   /* this is the section for the best selling in the html file */
+    #bselling{
+        background-color: #fff;
+    }
+    .thisnextpart{
+        display: grid;
+        grid-template-rows: auto auto auto;
+    }
+    .letext h1{
+        font-family: "Roboto Slab", serif;
+        font-size: 54px;
+        color: #224F34;
+        text-align: center;
+        margin-top: 10px;
+        padding-top: 30px;
+    }
+    .letext p{
+        font-family: "poppins", serif;
+        color: #224F34;
+        font-weight: 600;
+        text-align: center;
+        padding: 8px;
+    }
+    .twondis{
+        display: grid;
+        margin: 10px;
+        margin-top: 70px;
+        margin-left: 20px;
+        gap: 10px;
+        grid-template-columns: auto auto auto;
+        margin-bottom: 20px;
+    }
+    .twondiss{
+        display: grid;
+        grid-template-rows: auto auto;
+    }
+    .twondisss{
+        width: 399px;
+        height: 566px;
+        border-radius: 33px;
+    }
+    .brash{
+        background-color: #93B9A2;
+    }
+    .brasher{
+        background-color: #A9D4BA;
+    }
+    .brashest{
+        background-color: #CADCD0;
+    }
+    .imagegirlies{
+        width: 399px;
+        height: 566px;
+    }
+    .fa-star{
+        color: #F5D426;
+    }
+    .ratandpri{
+        text-align: center;
+    }
+    .ratandpri p{
+        margin-top: 30px;
+        font-family: "poppins", serif;
+        font-weight: 500;
+        font-size: 22px;
+        color: #373737;
+    }
+    .ratandpri a{
+        font-family: "poppins", serif;
+        font-weight: 500;
+        font-size: 22px;
+        color: #454545;
+    }
+    .divisor{
+        text-decoration: none;
+        border-left: 1px solid #454545;
+        padding-left: 8px;
+    }
+    .pntright{
+        text-decoration: none;
+        color: #224F34;
+        font-family: "poppins", serif;
+        width: 224px;
+        height: 65px;
+        border: 2px solid #224F34;
+        border-radius: 3px;
+        text-align: center;
+        padding: 16px 55px;
+        justify-content: center;
+        align-self: center;
+    }
+    .fa-arrow-right{
+        color: #224F34;
+    }
+    .zabutton{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .failuremain{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 110px;
+    }
+
+    /* this is the style section for the our products section in the html file */
+    
+    #ourproducts{
+        background-color: #fff;
+    }
+    .theothernextpart{
+        display: grid; 
+        grid-auto-columns: 1fr; 
+        grid-template-rows: auto auto; 
+        gap: 137px 0px; 
+    }
+    .tuletext{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .tuletext h1{
+        font-family: "Roboto Slab", serif;
+        font-weight: 500;
+        font-size: 50px;
+        color: #224F34;
+        text-align: center;
+    }
+    .thenextdisplay{
+        display: grid; 
+        grid-auto-columns: 1fr; 
+        grid-template-columns: auto auto auto; 
+        grid-template-rows: auto auto; 
+        gap: 66px 58px; 
+        grid-template-areas: 
+            ". . ."
+            ". . ."; 
+        padding: 110px;
+    }
+    .thesalesonpoint{
+        display: grid; 
+        grid-auto-columns: 1fr; 
+        grid-template-rows: auto auto; 
+        gap: 36px 0px; 
+    }
+    .salesdisplay{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .salesdisplay img{
+        width: 236px;
+        height: 270px;
+        align-items: center;
+        border-radius: 10px;
+    }
+    .priceandratdiss p{
+        font-family: "poppins", serif;
+        font-size: 20px;
+        text-align: center;
+    }
+    .priceandratdiss a{
+        text-decoration: none;
+        color: #224F34;
+    }
+
+
+    /* this is the styling for the exclusive offer in the html file */
+
+
+    #xclusiveoffer{
+        background-color: #fff;
+    }
+    .owengreen{
+        margin-left: 80px;
+        margin-right: 80px;
+        background-color: #C2EFD4;
+        display: grid; 
+        grid-auto-columns: 1fr; 
+        gap: 68.93px;
+        grid-template-columns: auto auto;
+    }
+    .owg img{
+        margin-left: 81px;
+        width: 482px;
+        height: 596px;
+    }
+    .owgtext{
+        padding-top: 67px;
+        padding-right: 53.94px;
+    }
+    .owgtext h1{
+        font-family: "Roboto Slab", serif;
+        font-size: 78px;
+        color: #224F34;
+    }
+    .owgtext p{
+        font-family: "poppins", serif;
+        font-size: 20px;
+        color: #224F34;
+        padding-bottom: 30px;
+    }
+    .owgtext a{
+        text-decoration: none;
+        padding: 19.61px 72.25px;
+        color: white;
+        background-color: #224F34;
+        border: 1px solid #224F34;
+        border-radius: 3px;
+    }
+    .fa-fire{
+        color: orange;
+        fill: white;
+    }
+    /* this is the styling for the feedback space in the html file */
+
+    #feedbackcorner{
+        background-color: white;
+    }
+
+    .fbcornergrid{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        grid-auto-columns: 1fr;
+        gap: px px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "."
+            ".";
+    }
+    .fbtext{
+        padding-top: 170px;
+        text-align: center;
+        font-family: "Roboto Slab", serif;
+        font-size: 50px;
+        color: #224F34;
+    }
+    .fbtestimonials{
+        display: grid; 
+        grid-auto-columns: 1fr; 
+        grid-template-columns: auto auto auto; 
+        gap: px 26.13px; 
+        margin-top: 80px;
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-bottom: 227px;
+    }
+
+    .testicles{
+        padding: 14px;
+        width: 354.47px;
+        height: 288px;
+        border-radius: 10px;
+        box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(194, 239, 212, 1) -3px -3px 6px 1px inset;
+    }
+    .commas{
+        font-size: 60px;
+        color: #224F34;
+    }
+    .testicles h1{
+        font-family: "Roboto Serif", serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-size: 24px;
+        color: #224F34;
+    }
+    .testicles p{
+        margin-top: 20px;
+        font-family: "poppins", serif;
+        color: #6F6F6F;
+        font-size: 12px;
+    }
+
+    /* this is the styling for the footer */
+    .thething h1{
+        padding-top: 7px;
+        font-family: "Rufina", serif;
+        font-weight: 700;
+        color: #224F34;
+    }
+    h5{
+        font-family: "Roboto Slab", serif;
+        color: white;   
+    }
+    .border-top{
+        border-color: #224F34;
+    }
+    .footsies2{
+        display: none;
+    }

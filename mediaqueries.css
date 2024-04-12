@@ -1,0 +1,221 @@
+@media (max-width:500px){
+    /* this is the set of media queries for the section "the top " */
+    .navbar h1{
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .navbar{
+        justify-content: center;
+    }
+    .links{
+        display: none;
+    }
+    .newb{display: none;}
+
+    .theintro{
+       display: flex;
+       flex-wrap: wrap;
+    }
+    .partone{
+        margin-top: -109px;
+        width: 100vw;
+        padding: 29px;
+        margin-bottom: 20px;
+    }
+    .partone h1{
+        margin-top: 9px;
+        font-family: "Rufina", serif;
+        font-size: 46px;
+        color: #224F34;
+        text-align: center;
+    }
+    .soap{
+        margin-bottom:5px;
+    }
+    .partone p{
+        margin-top: 28px;
+        font-size: 16px;
+        text-align: center;
+        color: #267D49;
+        font-family: poppins;
+        margin-bottom: 5px;
+    }
+    .partone a{
+        margin-top: 26px;
+        font-size: 12px;
+        width: 124.07px;
+        height: 52.53px;
+    }
+    .yogurt{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .parttwo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+    .lovelybk{
+        display: none;
+    }
+    .lovelybk2{
+        display: block;
+    }
+    .lovelybk2 img{
+        padding-bottom: 56px;
+    }
+    /* this is the set of media queries for the section "bselling" */
+    .thedivtwon{
+        width: 100vw;
+    }
+    .letext{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .letext h1{
+        margin-top: 50px;
+        font-family: "Roboto Slab", serif;
+        font-size: 35px;
+        text-align: center;
+    }
+    .letext p{
+        font-family: "poppins", serif;
+        color: #224F34;
+        font-weight: 600;
+        font-size: 14px;
+        text-align: center;
+    }
+    .thisnextpart{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .twondis{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        margin: none;
+        width: 100vw;
+    }
+    .twondisss{
+        width: 309px;
+        height: 428px;
+        text-align: center;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border-radius: 6px;
+    }
+    .imagegirlies{
+        width: 309px;
+        height: 428px;
+        text-align: center;
+    }
+    .babablu{
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    /* this is the set of media queries for the section "ourproducts" */
+    .tuletext h1{
+        font-size: 35px;
+    }
+    .thenextdisplay{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px;
+        align-items: center;
+        justify-content: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+     /* this is the set of media queries for the section "xclusiveoffer" */
+    .owengreen{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .owg{
+        width: 260px;
+        height: 303px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 25px;
+    }
+    .owg img{
+        margin-top: 94px;
+        text-align: center;
+        width: 260px;
+        height: 303px;
+        margin-left: px;
+        border-radius: 205px; 
+    }
+    .owgtext{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        padding-top: 0px;
+        padding-right: 0px;
+    }
+    .owgtext h1{
+        font-weight: 700;
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 23px;
+    }
+    .owgtext p{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 16px;
+        text-align: center;
+    }
+    .owgtext a{
+        padding: 14px 11px;
+        margin-bottom: 60px;
+    }
+
+    /* this is the set of media queries for the section "feedbackcorner" */
+    .fbtestimonials{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        width: 100vw;
+        justify-content: center;
+         align-items: center;
+    }
+    .testicles{
+        margin-top: 70.91px;
+        width: 298.47px;
+        height: 257px;
+    }
+    .testicles p{
+        font-size: 11px;
+    }
+    .bama{
+        margin-bottom: 40px;
+    }
+    .footsies1{
+        display: none;
+    }
+    .footsies2{
+        display: block;
+    }
+}
