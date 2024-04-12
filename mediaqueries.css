@@ -73,6 +73,7 @@
         width: 100vw;
     }
     .letext{
+        width: 100vw;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -202,7 +203,6 @@
         margin-bottom: 0px;
         width: 100vw;
         justify-content: center;
-         align-items: center;
     }
     .testicles{
         margin-top: 70.91px;
@@ -220,5 +220,50 @@
     }
     .footsies2{
         display: block;
+    }
+}
+/* this is the set of mediaqueries for a screens of 1440px and above */
+@media (min-width:1440px){
+    .parttwo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .twondis {
+        display: grid;
+        margin: 10px;
+        margin-top: 70px;
+        gap: 30px;
+        grid-template-columns: auto auto auto;
+        margin-bottom: 20px;
+    }
+    .twondisss{
+    display: flex;
+    /* width: 399px; */
+    /* height: 566px; */
+    border-radius: 33px;
+    flex-direction: row;
+    justify-content: center;
+    }
+    .owgtext h1{
+        font-family: "Roboto Slab", serif;
+        font-size: 70px;
+        color: #224F34;
+    }
+    .owgtext p {
+        font-family: "poppins", serif;
+        font-size: 25px;
+        color: #224F34;
+        padding-bottom: 30px;
+    }
+    .fbtestimonials{
+        display: grid;
+        grid-auto-columns: 1fr;
+        grid-template-columns: auto auto auto;
+        gap: px 26.13px;
+        margin-top: 80px;
+        margin-left: 140px;
+        margin-right: 80px;
+        margin-bottom: 227px;
     }
 }
