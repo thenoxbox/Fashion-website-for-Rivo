@@ -238,12 +238,15 @@
         margin-bottom: 20px;
     }
     .twondisss{
-    display: flex;
-    /* width: 399px; */
-    /* height: 566px; */
-    border-radius: 33px;
-    flex-direction: row;
-    justify-content: center;
+        display: flex;
+        width: 100%;
+        /* width: 399px; */
+        /* height: 566px; */
+        border-radius: 33px;
+        /* flex-direction: row; */
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
     .owgtext h1{
         font-family: "Roboto Slab", serif;
